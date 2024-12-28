@@ -1,0 +1,19 @@
+@startuml
+
+class Cliente {
+    - nombre: String
+    - idCoche: int
+    - semaforo: Semaphore
+    + Cliente(nombre: String, semaforo: Semaphore)
+    + run(): void
+}
+
+class Concesionario {
+    + main(args: String[]): void
+}
+
+Concesionario "1" o-- "*" Cliente : crea
+
+@enduml
+
+

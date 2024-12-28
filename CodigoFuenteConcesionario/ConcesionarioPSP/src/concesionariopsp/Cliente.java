@@ -9,7 +9,7 @@ import java.util.logging.Level;
  * Esta clase representa a un cliente que quiere probar un coche en nuestro concesionario.
  * Cada cliente representa un hilo que utiliza un semáforo para controlar el acceso a los 
  * vehículos que hay disponibles.
- * @author Pitcher
+ * @author JFG
  */
 public class Cliente extends Thread {
     // Atributos de la clase Cliente
