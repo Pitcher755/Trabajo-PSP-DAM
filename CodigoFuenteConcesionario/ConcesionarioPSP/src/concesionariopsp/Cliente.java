@@ -30,7 +30,7 @@ public class Cliente extends Thread {
     }
 
     /**
-     * Metodo run() con el sobrescrito con el código que se ejecuta al iniciar
+     * Metodo run() sobrescrito con el código que se ejecuta al iniciar
      * un hilo. Simula la prueba de un vehículo por el cliente, controlando el
      * acceso mediante el semáforo.
      */
